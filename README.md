@@ -31,3 +31,17 @@ employee-management/
 │ │ └── resources/
 │ │ └── application.properties
 ├── pom.xml
+#prerequisites 
+- Java 17+
+- Maven
+- MySQL running
+
+  Configure application.properties:
+
+properties
+Copy
+Edit
+spring.datasource.url=jdbc:mysql://localhost:3306/your_db
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
