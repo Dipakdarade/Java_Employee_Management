@@ -18,19 +18,6 @@ A full-featured **Employee Management System** built with **Spring Boot** and **
 - **Build Tool**: Maven
 - **IDE**: IntelliJ / Eclipse
 - **API Testing**: Postman
-
-## 📁 Project Structure
-employee-management/
-├── src/
-│ ├── main/
-│ │ ├── java/com/example/employeemanagement/
-│ │ │ ├── controller/
-│ │ │ ├── model/
-│ │ │ ├── repository/
-│ │ │ └── service/
-│ │ └── resources/
-│ │ └── application.properties
-├── pom.xml
 #prerequisites 
 - Java 17+
 - Maven
